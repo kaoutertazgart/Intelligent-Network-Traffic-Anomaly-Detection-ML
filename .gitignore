@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Compiled files and executables
+*.o
+*.o.d
+*.exe
+simulation/NETSIM/netsim
+simulation/NETSIM/out/
+simulation/NETSIM/netsim_workspace/out/
+
+# Logs, crash reports, and temporary files
+*.log
+hs_err_pid*
+*.bak
+.cmdenv-log
+
+# Generated simulation results
+simulation/NETSIM/results/
+simulation/NETSIM/configs/results/
+simulation/NETSIM/netsim_workspace/netsim_project/results/
+simulation/NETSIM/netsim_workspace/netsim_project/configs/results/
+
+# Large generated model/data outputs
+notebooks/port-scanning/results/processed_data/
+notebooks/port-scanning/results/models/
+
+
+# Large datasets (keep locally; upload separately if appropriate)
+data/congestion_training.csv
+data/portscan_training.csv
+
+# Generated build artifacts
+simulation/NETSIM/netsim_workspace/netsim_project/netsim
+simulation/NETSIM/netsim_workspace/netsim_project/out/
+simulation/NETSIM/netsim_workspace/netsim_project/.last-copts
+
+# Large training datasets (kept locally)
+data/congestion_training.csv
+data/portscan_training.csv
+
+# Generated simulation build files
+simulation/NETSIM/netsim_workspace/netsim_project/netsim
+simulation/NETSIM/netsim_workspace/netsim_project/out/
